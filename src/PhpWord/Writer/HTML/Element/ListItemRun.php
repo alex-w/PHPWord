@@ -1,19 +1,9 @@
 <?php
+
 /**
- * This file is part of PHPWord - A pure PHP library for reading and writing
- * word processing documents.
- *
- * PHPWord is free software distributed under the terms of the GNU Lesser
- * General Public License version 3 as published by the Free Software Foundation.
- *
- * For the full copyright and license information, please read the LICENSE
- * file that was distributed with this source code. For the full list of
- * contributors, visit https://github.com/PHPOffice/PHPWord/contributors.
- *
- * @see         https://github.com/PHPOffice/PHPWord
- * @copyright   2010-2018 PHPWord contributors
- * @license     http://www.gnu.org/licenses/lgpl.txt LGPL version 3
- */
+* Acknowledgement: This code is based on the work of Evan Shaw and others
+* https://github.com/PHPOffice/PHPWord/issues/1462#issuecomment-1991847158
+*/
 
 namespace PhpOffice\PhpWord\Writer\HTML\Element;
 
@@ -26,7 +16,7 @@ class ListItemRun extends TextRun
 {
     /**
      * Write list item
-     *
+     *  
      * @return string
      */
     public function write()
@@ -34,10 +24,40 @@ class ListItemRun extends TextRun
         if (!$this->element instanceof \PhpOffice\PhpWord\Element\ListItemRun) {
             return '';
         }
+        $content = '';
+        $content .= sprintf(
+            '<li data-depth="%s" data-liststyle="%s" data-numId="%s">',
+            $this->element->getDepth(),
+            $this->getListFormat($this->element->getDepth()),
+            $this->getListId()
+        );
 
-        $writer = new Container($this->parentWriter, $this->element);
-        $content = $writer->write() . PHP_EOL;
+        $namespace = 'PhpOffice\\PhpWord\\Writer\\HTML\\Element';
+        $container = $this->element;
 
+        $elements = $container->getElements();
+        foreach ($elements as $element) {
+            $elementClass = get_class($element);
+            $writerClass = str_replace('PhpOffice\\PhpWord\\Element', $namespace, $elementClass);
+            if (class_exists($writerClass)) {
+                /** @var \PhpOffice\PhpWord\Writer\HTML\Element\AbstractElement $writer Type hint */
+                $writer = new $writerClass($this->parentWriter, $element, true);
+                $content .= $writer->write();
+            }
+        }
+
+        $content .= '</li>';
+        $content .= "\n";
         return $content;
+    }
+
+    public function getListFormat($depth)
+    {
+        return $this->element->getStyle()->getNumStyle();
+    }
+
+    public function getListId()
+    {
+        return $this->element->getStyle()->getNumId();
     }
 }
