@@ -446,6 +446,11 @@ Search.appendIndex(
             "summary": "Get\u0020nested\u0020level.",
             "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#method_getNestedLevel"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003AgetCommentsRangeStart\u0028\u0029",
+            "name": "getCommentsRangeStart",
+            "summary": "Get\u0020comments\u0020start.",
+            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#method_getCommentsRangeStart"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003AgetCommentRangeStart\u0028\u0029",
             "name": "getCommentRangeStart",
             "summary": "Get\u0020comment\u0020start.",
@@ -455,6 +460,11 @@ Search.appendIndex(
             "name": "setCommentRangeStart",
             "summary": "Set\u0020comment\u0020start.",
             "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#method_setCommentRangeStart"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003AgetCommentsRangeEnd\u0028\u0029",
+            "name": "getCommentsRangeEnd",
+            "summary": "Get\u0020comments\u0020end.",
+            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#method_getCommentsRangeEnd"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003AgetCommentRangeEnd\u0028\u0029",
             "name": "getCommentRangeEnd",
@@ -581,15 +591,15 @@ Search.appendIndex(
             "summary": "Is\u0020part\u0020of\u0020collection\u003B\u0020true\u0020for\u0020Title,\u0020Footnote,\u0020Endnote,\u0020Chart,\u0020and\u0020Comment.",
             "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#property_collectionRelation"
         },                {
-            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003A\u0024commentRangeStart",
-            "name": "commentRangeStart",
-            "summary": "The\u0020start\u0020position\u0020for\u0020the\u0020linked\u0020comment.",
-            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#property_commentRangeStart"
+            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003A\u0024commentsRangeStart",
+            "name": "commentsRangeStart",
+            "summary": "The\u0020start\u0020position\u0020for\u0020the\u0020linked\u0020comments.",
+            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#property_commentsRangeStart"
         },                {
-            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003A\u0024commentRangeEnd",
-            "name": "commentRangeEnd",
-            "summary": "The\u0020end\u0020position\u0020for\u0020the\u0020linked\u0020comment.",
-            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#property_commentRangeEnd"
+            "fqsen": "\\PhpOffice\\PhpWord\\Element\\AbstractElement\u003A\u003A\u0024commentsRangeEnd",
+            "name": "commentsRangeEnd",
+            "summary": "The\u0020end\u0020position\u0020for\u0020the\u0020linked\u0020comments.",
+            "url": "classes/PhpOffice-PhpWord-Element-AbstractElement.html#property_commentsRangeEnd"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Element\\Bookmark",
             "name": "Bookmark",
@@ -3845,6 +3855,11 @@ Search.appendIndex(
             "name": "readParagraph",
             "summary": "Read\u0020w\u003Ap.",
             "url": "classes/PhpOffice-PhpWord-Reader-Word2007-AbstractPart.html#method_readParagraph"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Reader\\Word2007\\AbstractPart\u003A\u003AreadFormField\u0028\u0029",
+            "name": "readFormField",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Reader-Word2007-AbstractPart.html#method_readFormField"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Reader\\Word2007\\AbstractPart\u003A\u003AgetHeadingDepth\u0028\u0029",
             "name": "getHeadingDepth",
@@ -12881,6 +12896,11 @@ Search.appendIndex(
             "summary": "Translates\u0020Table\u0020style\u0020in\u0020CSS\u0020equivalent.",
             "url": "classes/PhpOffice-PhpWord-Writer-HTML-Element-Table.html#method_getTableStyle"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\HTML\\Element\\Table\u003A\u003AcalculateCellRowSpan\u0028\u0029",
+            "name": "calculateCellRowSpan",
+            "summary": "Calculates\u0020cell\u0020rowspan.",
+            "url": "classes/PhpOffice-PhpWord-Writer-HTML-Element-Table.html#method_calculateCellRowSpan"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\HTML\\Element\\Text",
             "name": "Text",
             "summary": "Text\u0020element\u0020HTML\u0020writer.",
@@ -13251,6 +13271,11 @@ Search.appendIndex(
             "summary": "Namespace\u003B\u0020Can\u0027t\u0020use\u0020__NAMESPACE__\u0020in\u0020inherited\u0020class\u0020\u0028ODText\u0029.",
             "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Container.html#property_namespace"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\Container\u003A\u003A\u0024containerWithoutP",
+            "name": "containerWithoutP",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Container.html#property_containerWithoutP"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\Field",
             "name": "Field",
             "summary": "Field\u0020element\u0020writer.",
@@ -13295,6 +13320,16 @@ Search.appendIndex(
             "name": "write",
             "summary": "Write\u0020element.",
             "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Link.html#method_write"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\ListItemRun",
+            "name": "ListItemRun",
+            "summary": "ListItemRun\u0020element\u0020writer.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-ListItemRun.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\ListItemRun\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "Write\u0020list\u0020item\u0020element.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-ListItemRun.html#method_write"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\PageBreak",
             "name": "PageBreak",
@@ -13580,6 +13615,16 @@ Search.appendIndex(
             "name": "write",
             "summary": "Write\u0020style.",
             "url": "classes/PhpOffice-PhpWord-Writer-ODText-Style-Image.html#method_write"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Style\\Numbering",
+            "name": "Numbering",
+            "summary": "Numbering\u0020style\u0020writer.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Style-Numbering.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Style\\Numbering\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "Write\u0020style.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Style-Numbering.html#method_write"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Style\\Paragraph",
             "name": "Paragraph",
@@ -14006,10 +14051,25 @@ Search.appendIndex(
             "summary": "Write\u0020cell.",
             "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Table.html#method_writeCell"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Table\u003A\u003AwriteCellStyle\u0028\u0029",
+            "name": "writeCellStyle",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Table.html#method_writeCellStyle"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Table\u003A\u003AwriteCellBorder\u0028\u0029",
+            "name": "writeCellBorder",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Table.html#method_writeCellBorder"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Table\u003A\u003AgetVMerge\u0028\u0029",
             "name": "getVMerge",
             "summary": "Get\u0020vertical\u0020merge\u0020style.",
             "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Table.html#method_getVMerge"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Table\u003A\u003A\u0024element",
+            "name": "element",
+            "summary": "Element.",
+            "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Table.html#property_element"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Text",
             "name": "Text",
@@ -14048,7 +14108,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Title\u003A\u003AgetStyles\u0028\u0029",
             "name": "getStyles",
-            "summary": "",
+            "summary": "Get\u0020font\u0020and\u0020paragraph\u0020styles.",
             "url": "classes/PhpOffice-PhpWord-Writer-RTF-Element-Title.html#method_getStyles"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\RTF\\Element\\Title\u003A\u003Awrite\u0028\u0029",
@@ -14581,6 +14641,11 @@ Search.appendIndex(
             "summary": "Namespace\u003B\u0020Can\u0027t\u0020use\u0020__NAMESPACE__\u0020in\u0020inherited\u0020class\u0020\u0028ODText\u0029.",
             "url": "classes/PhpOffice-PhpWord-Writer-Word2007-Element-Container.html#property_namespace"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\Word2007\\Element\\Container\u003A\u003A\u0024containerWithoutP",
+            "name": "containerWithoutP",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-Word2007-Element-Container.html#property_containerWithoutP"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\Word2007\\Element\\Endnote",
             "name": "Endnote",
             "summary": "Endnote\u0020element\u0020writer.",
@@ -14615,6 +14680,16 @@ Search.appendIndex(
             "name": "buildPropertiesAndOptions",
             "summary": "",
             "url": "classes/PhpOffice-PhpWord-Writer-Word2007-Element-Field.html#method_buildPropertiesAndOptions"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\Word2007\\Element\\Field\u003A\u003AwriteRef\u0028\u0029",
+            "name": "writeRef",
+            "summary": "Writes\u0020a\u0020REF\u0020field.",
+            "url": "classes/PhpOffice-PhpWord-Writer-Word2007-Element-Field.html#method_writeRef"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\Word2007\\Element\\Field\u003A\u003AconvertRefOption\u0028\u0029",
+            "name": "convertRefOption",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-Word2007-Element-Field.html#method_convertRefOption"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\Word2007\\Element\\Footnote",
             "name": "Footnote",
