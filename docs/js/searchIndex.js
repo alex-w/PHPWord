@@ -13956,6 +13956,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-AbstractElement.html#method_replaceTabs"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\Bookmark",
+            "name": "Bookmark",
+            "summary": "Bookmark\u0020element\u0020writer.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Bookmark.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\Bookmark\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "Write\u0020bookmark\u0020element.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Bookmark.html#method_write"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\CheckBox",
             "name": "CheckBox",
             "summary": "CheckBox\u0020element\u0020writer.",
@@ -14180,6 +14190,21 @@ Search.appendIndex(
             "name": "compareToFirstElement",
             "summary": "Test\u0020if\u0020element\u0020is\u0020same\u0020as\u0020first\u0020element\u0020in\u0020array.",
             "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-Title.html#method_compareToFirstElement"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\TOC",
+            "name": "TOC",
+            "summary": "Table\u0020of\u0020contents\u0020element\u0020writer.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-TOC.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\TOC\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "Write\u0020element.",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-TOC.html#method_write"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Element\\TOC\u003A\u003AwriteSource\u0028\u0029",
+            "name": "writeSource",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Writer-ODText-Element-TOC.html#method_writeSource"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Writer\\ODText\\Part\\AbstractPart",
             "name": "AbstractPart",
